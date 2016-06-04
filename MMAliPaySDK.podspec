@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "MMAlipaySDK"
-s.version      = "0.0.1"
+s.version      = "15.1.3"
 s.summary      = "iOS AlipaySDK"
 
 s.homepage     = "https://b.alipay.com/newIndex.htm"
