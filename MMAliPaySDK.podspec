@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = 'MMAlipaySDK'
+s.name             = 'MMAliPaySDK'
 s.version          = '15.1.3'
 s.summary          = "Alipay SDK for iOS to access Alipay platform."
 s.description      = <<-DESC
@@ -15,6 +15,6 @@ s.requires_arc     = true
 s.frameworks          = 'CoreMotion', 'CoreTelephony', 'SystemConfiguration', 'CFNetwork'
 s.libraries           = 'z', 'c++'
 s.resources           = 'AlipaySDK/AlipaySDK.bundle'
-s.vendored_frameworks = 'AlipaySDK/AlipaySDK.framework'
-s.vendored_libraries = 'AlipaySDK/libAPayLib.a'
+s.vendored_framework = 'AlipaySDK/AlipaySDK.framework'
+s.vendored_librarie = 'AlipaySDK/libAPayLib.a'
 end
