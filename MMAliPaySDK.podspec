@@ -10,7 +10,7 @@ Therefore, we create this pod to track the official Alipay iOS SDK.
 DESC
 s.homepage = 'https://github.com/money150604/MMAliPaySDK'
 s.authors  = { 'money150604' => '80146944@qq.com' }
-s.source   = { :git => 'https://github.com/money150604/MMAliPaySDK.git', :tag => "v#{s.version.to_s}" }
+s.source   = { :git => 'https://github.com/money150604/MMAliPaySDK.git', :tag => "#{s.version}" }
 s.ios.deployment_target = '7.0'
 s.requires_arc   = true
 
