@@ -14,7 +14,7 @@ s.platform         = :ios, '7.0'
 s.requires_arc     = true
 s.frameworks          = 'CoreMotion', 'CoreTelephony', 'SystemConfiguration', 'CFNetwork'
 s.libraries           = 'z', 'c++'
-s.resources           = 'AlipaySDK/AlipaySDK.bundle'
+s.resources           = 'AlipaySDK/*.{bundle}'
 s.vendored_frameworks = 'AlipaySDK/*.{framework}'
 s.vendored_libraries = 'AlipaySDK/*.{a}'
 end
